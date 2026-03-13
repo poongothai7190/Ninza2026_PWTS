@@ -1,0 +1,23 @@
+{
+  "contacts": [
+    {
+      "contactsOrganization": "NinzaCorp",
+      "contactsTitle": "Sales Manager",
+      "contactsDepartment": "Sales",
+      "contactsOfficePhone": "1234567890",
+      "contactsContactName": "John Doe",
+      "contactsMobile": "0987654321",
+      "contactsEmail": "johndoe@ninza.com"
+    },
+    {
+      "contactsOrganization": "ABCCorp ltd",
+      "contactsTitle": "Marketing Specialist",
+      "contactsDepartment": "Marketing",
+      "contactsOfficePhone": "1112223333",
+      "contactsContactName": "Jane Smith",
+      "contactsMobile": "4445556666",
+      "contactsEmail": "janesmith@abccorp.com"
+    }
+  ]
+}
+      

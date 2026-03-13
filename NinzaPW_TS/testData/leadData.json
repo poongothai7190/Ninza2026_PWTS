@@ -1,0 +1,24 @@
+{
+  "leads": [
+    {
+      "leadName": "NinzaLeadX",
+      "companyName" : "ABCCorp ltd",
+      "leadSOurce" : "Advertisement",
+      "industry" : "IT",
+      "AssignedTo" : "John Doe",
+      "email": "ninzalead@example.com", 
+      "LeadStatus" : "Contacted",
+      "phone": "9999999999"
+    },
+    {
+      "leadName": "ninzaTeamLeadZ",
+      "companyName" : "ABCCorp ltd",
+      "leadSOurce" : "event",
+      "industry" : "IT",
+      "AssignedTo" : "John Doe",
+      "email": "ninzaTeamlead@example.com",
+       "LeadStatus" : "New",
+      "phone": "8888888888"
+    }
+  ]
+}

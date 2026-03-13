@@ -1,0 +1,12 @@
+{
+  "products": [
+    {
+      "productName": "Laptop",
+      "pricePerUnit" : "2500"
+    },
+    {
+      "productName": "Wireless Mouse",
+      "pricePerUnit" : "25"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "campaigns": [
+    {
+      "campaignName": "DCAMP",
+      "campaignStatus" : "Active",
+      "targetSize" : "10",
+      "targetAudience" : "IT",
+      "description": "New campaign"
+    },
+    {
+      "campaignName": "ACAMP",
+      "campaignStatus" : "New",
+      "targetSize" : "500",
+      "targetAudience" : "Sales",
+      "description": "Another campaign"
+    }
+  ]
+}
