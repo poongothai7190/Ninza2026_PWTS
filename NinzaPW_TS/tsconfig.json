@@ -1,3 +1,5 @@
+//how to convert .ts files compiled into JavaScript
+
 { 
   "compilerOptions": {
     // Environment Settings

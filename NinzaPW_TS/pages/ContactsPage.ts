@@ -91,7 +91,7 @@ export class ContactsPage extends BasePage {
   }
 
   async clickBlueCreateContactsButton(): Promise<void> {
-    await this.page.waitForTimeout(5000);
+    await this.page.waitForTimeout(3000);
     await this.btnCreateContact.click();
   }
 
