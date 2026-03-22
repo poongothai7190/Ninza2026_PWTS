@@ -12,9 +12,12 @@ export class APIClient {
 
   async init() {
     //async bcoz request.newContext returns a promise
+    const BASE_URL = process.env.BASE_URL!;
+    console.log("BASE_URL in APIClient:", BASE_URL);
     this.requestContext = await request.newContext({
       //creates a new API session or context
-      baseURL: process.env.BASE_URL,
+      // baseURL: "http://49.249.28.218:8098",
+      baseURL: BASE_URL,
       extraHTTPHeaders: {
         "Content-Type": "application/json",
       },

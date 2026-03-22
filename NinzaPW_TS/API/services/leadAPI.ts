@@ -34,10 +34,11 @@ line 6 (TS shorthand property) or
   }
 
   // DELETE /lead → delete a lead by ID
-  async deleteLead(payload: any) {
+  async deleteLead(leadId: string) {
+    console.log("The deleted leadId will be ---> ", leadId);
     return await this.request.delete(ENDPOINTS.LEADS.DELETE, {
       params: {
-        leadId: payload.leadId,
+        leadId: leadId,
       },
     });
   }

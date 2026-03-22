@@ -3,19 +3,21 @@ import * as dotenv from "dotenv";
 import * as path from "path";
 const envPath = path.resolve(__dirname, ".env");
 console.log("Loading .env from:", envPath);
-//const result = dotenv.config({ path: envPath, override: true });
 dotenv.config({ path: envPath, override: true });
+
+console.log("BASE_URL from config:", process.env.BASE_URL);
 
 export default defineConfig({
   testDir: "./tests",
   fullyParallel: true,
   forbidOnly: !!process.env.CI,
-  retries: process.env.CI ? 2 : 0,
+  retries: process.env.CI ? 1 : 0,
   workers: 1, //process.env.CI ? 1 : undefined,
   reporter: "html",
   use: {
     /* Base URL to use in actions like `await page.goto('')`. */
     // baseURL: 'http://49.249.28.218:8098',
+    baseURL: process.env.BASE_URL,
     headless: false,
     trace: "on-first-retry",
   },
